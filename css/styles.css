@@ -1,49 +1,61 @@
 /* add your CSS here */
+
 * {
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    padding: 0;
 }
+
 body {
-  max-width: 400px;
-  margin-left: auto;
-  margin-right: auto;
-  line-height: 20px;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 20px;
 }
+
 .aboutBillu {
-  background-color: #f0faff;
-  padding: 10px;
-  margin-top: 10px;
-  box-shadow: 6px 6px #e2e2e2;
+    background-color: #f0faff;
+    padding: 10px;
+    margin-top: 10px;
+    box-shadow: 6px 6px #e2e2e2;
 }
-.aboutBillu, .billuInfo{
-  border: #cec9c9 1px solid;
+
+.aboutBillu, .billuInfo {
+    border: #cec9c9 1px solid;
 }
-#topTitle {
-  margin: 15px 0 15px 0;
+
+.topTitle {
+    margin: 15px 0 15px 0;
 }
-#myBillu {
-  width: 378px;
-  border-radius: 4px;
+
+.myBillu {
+    width: 378px;
+    border-radius: 4px;
 }
+
 .billuInfo {
-  padding: 10px 10px 30px 10px;
-  margin-top: 15px;
-  background-color: #fdffe6
+    padding: 10px 10px 30px 10px;
+    margin-top: 15px;
+    background-color: #fdffe6
 }
-#interestingFacts {
-  padding: 5px 0px 25px 0px;
-  font-style: italic;
+
+.interestingFacts {
+    padding: 5px 0 25px 0;
+    font-style: italic;
 }
-ul.noDots {
-  list-style-type: none;
+
+.noDots {
+    list-style-type: none;
 }
-ul.noDots span {
-  font-weight: bold;
-  font-size: 16px;
+
+.noDots span {
+    font-weight: bold;
+    font-size: 16px;
 }
-ul.noDots li, #bottom, #interestingFacts {
-  font-size: 15px;
+
+.noDots li, .bottom, .interestingFacts {
+    font-size: 15px;
 }
-#bottom {
-  padding-top: 25px;
+
+.bottom {
+    padding-top: 25px;
 }
